@@ -53,17 +53,17 @@
                                 <ul id="navigation">
                                     <li><a href="{{ url('/') }}">Home</a></li>
                                     <li><a href="{{ url('/shop') }}">shop</a></li>
-                                    <li><a href="about.html">about</a></li>
+                                    <li><a href="{{ url('/about')}}">about</a></li>
                                     <li class="hot"><a href="#">Latest</a>
                                         <ul class="submenu">
-                                            <li><a href="shop.html"> Product list</a></li>
-                                            <li><a href="product_details.html"> Product Details</a></li>
+                                            <li><a href="{{ url('/shop') }}"> Product list</a></li>
+                                            <li><a href="{{ url('/product_details') }}"> Product Details</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="blog.html">Blog</a>
+                                    <li><a href="{{ url('blog') }}">Blog</a>
                                         <ul class="submenu">
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                            <li><a href="{{ url('blog') }}">Blog</a></li>
+                                            <li><a href="{{ url ('blog-details') }}">Blog Details</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#">Pages</a>
