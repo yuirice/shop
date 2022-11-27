@@ -58,7 +58,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-popular-items mb-50 text-center">
                                     <div class="popular-img">
-                                        <img src="{{asset('img/gallery/popular1.png')}}" alt="">
+                                        <img src="{{ asset('img/gallery/popular1.png') }}" alt="">
                                         <div class="img-cap">
                                             <span>Add to cart</span>
                                         </div>
