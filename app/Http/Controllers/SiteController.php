@@ -22,8 +22,32 @@ class SiteController extends Controller
     {
         return view("contact");
     }
-  public function Cart()
+   public function Cart()
     {
         return view("Cart");
+    }
+   public function Confirmation()
+    {
+        return view("Confirmation");
+    }
+   public function element()
+    {
+        return view("element");
+    }
+   public function Login()
+    {
+        return view("Login");
+    }
+   public function Product_Checkout()
+    {
+        return view("Product_Checkout");
+    }
+  public function blog()
+    {
+        return view("blog");
+    }
+  public function blog-details()
+    {
+        return view("blog-details");
     }
 }

@@ -60,22 +60,22 @@
                                             <li><a href="{{ url('/product_details') }}"> Product Details</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="{{ url('blog') }}">Blog</a>
+                                    <li><a href="{{ url('/blog') }}">Blog</a>
                                         <ul class="submenu">
-                                            <li><a href="{{ url('blog') }}">Blog</a></li>
-                                            <li><a href="{{ url ('blog-details') }}">Blog Details</a></li>
+                                            <li><a href="{{ url('/blog') }}">Blog</a></li>
+                                            <li><a href="{{ url ('/blog-details') }}">Blog Details</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#">Pages</a>
                                         <ul class="submenu">
-                                            <li><a href="login.html">Login</a></li>
-                                            <li><a href="cart.html">Cart</a></li>
-                                            <li><a href="elements.html">Element</a></li>
-                                            <li><a href="confirmation.html">Confirmation</a></li>
-                                            <li><a href="checkout.html">Product Checkout</a></li>
+                                            <li><a href="{{ url ('/Login') }}">Login</a></li>
+                                            <li><a href="{{ url ('/Cart') }}">Cart</a></li>
+                                            <li><a href="{{ url ('/element') }}">Element</a></li>
+                                            <li><a href="{{ url ('/Confirmation') }}">Confirmation</a></li>
+                                            <li><a href="{{ url ('/Product_Checkout') }}">Product Checkout</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="{{ url('contact') }}">Contact</a></li>
+                                    <li><a href="{{ url('/contact') }}">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -87,8 +87,8 @@
                                         <span class="flaticon-search"></span>
                                     </div>
                                 </li>
-                                <li> <a href="login.html"><span class="flaticon-user"></span></a></li>
-                                <li><a href="cart.html"><span class="flaticon-shopping-cart"></span></a> </li>
+                                <li> <a href="{{ url ('/Login') }}"><span class="flaticon-user"></span></a></li>
+                                <li><a href="{{ url ('/Cart') }}"><span class="flaticon-shopping-cart"></span></a> </li>
                             </ul>
                         </div>
                     </div>

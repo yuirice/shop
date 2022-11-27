@@ -1,4 +1,4 @@
- @extands('layouts.master')
+ @extends('layouts.master')
 
  @section('title','詳情')
 
