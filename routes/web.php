@@ -32,5 +32,5 @@ Route::namespace('App\Http\Controllers')->group(function(){
   Route::get('/Login', 'SiteController@Login');
   Route::get('/Product_Checkout', 'SiteController@Product_Checkout');
   Route::get('/blog', 'SiteController@blog');
-  Route::get('/blog-details', 'SiteController@blog-details');
+  Route::get('/blog-details', 'SiteController@blog_details');
 });

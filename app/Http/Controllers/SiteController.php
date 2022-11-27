@@ -46,8 +46,8 @@ class SiteController extends Controller
     {
         return view("blog");
     }
-  public function blog-details()
+  public function blog_details()
     {
-        return view("blog-details");
+        return view("blog_details");
     }
 }
