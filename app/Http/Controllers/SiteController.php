@@ -22,4 +22,8 @@ class SiteController extends Controller
     {
         return view("contact");
     }
+  public function Cart()
+    {
+        return view("Cart");
+    }
 }
